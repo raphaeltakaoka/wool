@@ -5,14 +5,18 @@ body, html {
   font: 400 15px/1.8 "Lato", sans-serif;
   color: #777;
 }
+.caption .border {
+  font-family: 'Indie Flower', cursive;
+}
 
+/*Menu de navegação*/
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
-    position: fixed;
+    /*position: fixed;*/
     top: 0;
     width: 100%;
 }
@@ -29,14 +33,19 @@ li a {
     text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
 li a:hover {
     background-color: #111;
+}
+/*Final menu de navegação*/
+
+iframe {
+  width: 450px;
+  height: 225px;
 }
 
 .background1, .background2, .background3 {
   position: relative;
-  opacity: 0.65;
+  opacity: 0.8;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -83,12 +92,17 @@ h3 {
 }
 
 .historia {
-  color: #777;
-  background-color: white;
+  color: black;
+  /*background-color: white;*/
+  background-image: url("images/background/fundadora2.jpg");
+  background-size: cover;
+  opacity: 0.3;
   text-align: center;
   padding: 50px 80px;
   text-align: justify;
 }
+
+
 
 .historia img {
   width: 10%;
@@ -96,10 +110,9 @@ h3 {
   margin-right: 10px;
 }
 
-
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
-    .bgimg-1, .bgimg-2, .bgimg-3 {
+    .background1, .background2, .background3 {
         background-attachment: scroll;
     }
 }
