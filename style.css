@@ -15,7 +15,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #fff082;
     /*position: fixed;*/
     top: 0;
     width: 100%;
@@ -26,15 +26,18 @@ li {
 }
 
 li a {
+    font-family: 'Indie Flower', cursive;
+    font-size: 25px;
     display: block;
-    color: white;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    margin-left: 30px;
 }
 
 li a:hover {
-    background-color: #111;
+    background-color: white;
 }
 /*Final menu de navegação*/
 
@@ -59,12 +62,12 @@ iframe {
 
 .background2 {
   background-image: url("images/background/background2.jpg");
-  min-height: 400px;
+  min-height: 550px;
 }
 
 .background3 {
   background-image: url("images/background/background3.jpg");
-  min-height: 400px;
+  min-height: 550px;
 }
 
 .caption {
@@ -77,11 +80,12 @@ iframe {
 }
 
 .caption span.border {
-  background-color: #111;
-  color: #fff;
+  background-color: #fff082;
+  color: black;
   padding: 18px;
-  font-size: 25px;
+  font-size: 36px;
   letter-spacing: 10px;
+  font-weight: bold;
 }
 
 h3 {
@@ -93,16 +97,17 @@ h3 {
 
 .historia {
   color: black;
-  /*background-color: white;*/
-  background-image: url("images/background/fundadora2.jpg");
+  background-image: url("images/background/fundadora2.png");
   background-size: cover;
-  opacity: 0.3;
   text-align: center;
   padding: 50px 80px;
   text-align: justify;
 }
 
-
+.historia p {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
 
 .historia img {
   width: 10%;

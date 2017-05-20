@@ -1,10 +1,15 @@
 
+.divProdutos {
+  background: transparent;
+}
+
 .linha {
   display: flex;
 }
 
 .linha div {
   padding: 10px;
+  margin-left: 100px;
 }
 
 /*.linha div:hover {
@@ -12,7 +17,7 @@
 }*/
 
 .linha img {
-  width: 25%;
+  width: 45%;
 }
 
 .linha div .nome {
@@ -64,4 +69,5 @@
   background-color: #fff;
   width: 40px;
   height: 20px;
+  border-radius: 10%;
 }
