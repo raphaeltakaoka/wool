@@ -14,6 +14,3 @@ function mostrarProduto1() {
 
   }
 }
-$(window).scroll(function(){
-  $("#div").stop().animate({"marginTop": ($(window).scrollTop()) + "px", "marginLeft":($(window).scrollLeft()) + "px"}, "slow" );
-});

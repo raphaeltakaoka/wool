@@ -10,7 +10,7 @@ body, html {
 }
 
 /*Menu de navegação*/
-ul {
+.menu ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -21,11 +21,11 @@ ul {
     width: 100%;
 }
 
-li {
+.menu li {
     float: left;
 }
 
-li a {
+.menu li a {
     font-family: 'Indie Flower', cursive;
     font-size: 25px;
     display: block;
@@ -36,7 +36,7 @@ li a {
     margin-left: 30px;
 }
 
-li a:hover {
+.menu li a:hover {
     background-color: white;
 }
 /*Final menu de navegação*/
@@ -115,6 +115,35 @@ h3 {
   margin-right: 10px;
 }
 
+.footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff082;
+    /*position: fixed;*/
+    top: 0;
+    width: 100%;
+}
+
+.footer li {
+    float: left;
+}
+
+.footer li a {
+    font-family: sans-serif;
+    font-size: 18px;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+.footer li a:hover {
+    background-color: white;
+}
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
     .background1, .background2, .background3 {
