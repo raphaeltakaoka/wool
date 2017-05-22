@@ -1,0 +1,79 @@
+
+.produtos {
+  position: relative;
+  color: black;
+  background-color: white;
+  text-align: center;
+  padding: 20px 40px;
+}
+
+.linha {
+  display: flex;
+}
+
+.linha div {
+  padding: 10px;
+}
+
+/*.linha div:hover {
+  opacity: 0.5;
+}*/
+
+.linha img {
+  width: 45%;
+  border-radius: 15%;
+}
+
+.linha div .nome {
+    margin: 0;
+    font-size: 20px;
+}
+
+.linha div .preco {
+    margin: 0;
+    font-size: 16px;
+    color: #257aed;
+}
+
+/*Pop-up produtos*/
+.modal {
+    width: 50%;
+    border: 1px solid #aaa;
+    border-radius: 20px;
+    position: absolute;
+    background-color: white;
+    left: 0;
+    margin-left: 25%;
+    padding: 35px 50px;
+    opacity: 0;
+}
+
+.modal .header {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.modal img {
+  width: 30%;
+}
+.modal button {
+    float: right;
+    background-color: red;
+}
+
+.modal.active {
+  opacity: 1;
+}
+
+.fade {
+  transition-timing-function: ease;
+  transition: 0.5s;
+}
+
+.botaoProduto {
+  background-color: #fff082;
+  width: 100px;
+  height: 30px;
+  border-radius: 10%;
+}

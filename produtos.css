@@ -2,9 +2,9 @@
 .produtos {
   position: relative;
   color: black;
-  background-color: white;
+  background-color: #FFEBCD;
   text-align: center;
-  padding: 20px 40px;
+  padding: 150px 10px;
 }
 
 .linha {
@@ -20,7 +20,7 @@
 }*/
 
 .linha img {
-  width: 45%;
+  width: 90%;
   border-radius: 15%;
 }
 
@@ -41,7 +41,7 @@
     border: 1px solid #aaa;
     border-radius: 20px;
     position: absolute;
-    background-color: white;
+    background-color: #FFDAB9;
     left: 0;
     margin-left: 25%;
     padding: 35px 50px;
@@ -59,8 +59,8 @@
 }
 .modal button {
     float: right;
-    background-color: red;
-}
+    background-color: orange;
+  }
 
 .modal.active {
   opacity: 1;
