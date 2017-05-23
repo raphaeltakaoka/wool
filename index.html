@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="produtos.css">
     <link rel="stylesheet" href="contato.css">
+    <link rel="stylesheet" href="processo.css">
     <link rel="icon" href="images/favicon/favicon.ico" type="image/x-icon"/>
     <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon"/>
     <title>Henriqueta Achutti</title>
@@ -13,94 +14,77 @@
 
   <body>
     <div class="background1">
+
       <!-- Menu de navegação -->
-    <section class="menu">
-      <ul>
-        <li><a href="#historia">Historia</a></li>
-        <li><a href="#produtos">Produtos</a></li>
-        <li><a href="#processo">Processo</a></li>
-        <li><a href="#contato">Contato</a></li>
-      </ul>
-    </section>
+    <div class="topnav" id="myTopnav">
+  <a href="#historia">Nossa Loja</a>
+  <a href="#produtos">Produtos</a>
+  <a href="#processo">Processo</a>
+  <a href="#contato">Contato</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
       <!-- Final menu de navegação -->
+
       <div class="caption">
         <span class="border">Henriqueta Achutti Fios e Lãs</span>
       </div>
     </div>
+
         <div class="historia" id="historia">
-          <h3 style="text-align:center;">História</h3>
-          <p>A historia da Henriqueta Fios e Lãs começa á 70 anos atrás quando a Fundadora Henriqueta Rocha Achutti então com 15 anos e residindo na fazenda da família de produção de gado, ovelhas e plantação de arroz iniciava o contato com a Lã de ovelhas.
-Naquela época ainda não conhecia todas as aplicações da mesma, mas já iniciava na fiação manual com fuzo e roca. Para feitura de blusas, ponchos e boinas para uso da família e colaboradores.
-Com o avanço da escola ela mudou-se para a cidade mais próxima Santa Maria e estudava em colégio interno continuando longe da lã. A pós o final da escola casou com Jose Carlos Achutti e foi morar em Porto Alegre e a vida transcorria tranquila quando por de 1973 e já com quatro filhos, por uma busca de avanço profissional, o seu marido mudou-se para São Paulo oque parecia afasta-la ainda mais das atividades com lã.
-</p>
+          <h3 style="text-align:center;">Nossa Loja</h3>
+          <p>Somos especializados em Lã natural, das raças Corriedale e Merino. Temos Fios para tricô, crochê, lã penteada para feltragem agulhada e molhada. Artesanato em geral, seja para cabelos e barbas de bonecas e bonecos de todos os tipos assim como lã de enchimento.
+          Somos especializados nos bonecos e bonecas Walforf.  Produção 100% artesanal fiamos em Rocas e tingimos  artesanalmente. Outra linha de produtos são agulhas espumas e aglutinadores ligados a feltragem.   Maior variedade e qualidade você encontra aqui, arte transmitida e mãe para filhos, técnica comprovada com mais de 30 anos de existência sempre artesanal e fiel as suas origens, Salve Dona Henriqueta Rocha Achutti Fundadora e precursora deste produto em São Paulo.
+          </p>
         </div>
+
     <div class="background2">
+
       <div class="caption">
         <span class="border">Produtos</span>
       </div>
     </div>
 
     <section class="produtos" id="produtos">
-          <div class="linha">
-          <div>
-            <img src="images/fios/fios.jpg" alt="foto fios">
+        <div class="linha">
+          <div class="image">
+            <img src="images/fios/fios.jpg" alt="foto fios" class="active">
+            <img src="images/fios/fios1.jpg" alt="foto fios">
+            <img src="images/fios/fios2.jpg" alt="foto fios">
+
+              <div class="descFios">
+                <h2>Fios</h2>
+                <p>100% Lã. Das ovelhas das raças Corriedale e Merino, fiada em Roca manualmente. Tingidas artesanalmente. Apresentação em novelos ou meadas, vendas sem quantidade mínima, leve apenas o necessário para o seu trabalho, para maiores informações ou orçamento ligue para (11) 5543-5704 ou <a href="mailto:contato@henriqueta.com.br">contato@henriqueta.com.br</a> ou ainda, <a href="https://www.facebook.com/henriqueta.achutti">https://www.facebook.com/henriqueta.achutti</a>
+                </p>
+              </div>
+
             <p class="nome">Fios</p>
-            <button type="button" onclick="mostrarProduto1()" class="botaoProduto">Mais detalhes</button>
           </div>
 
-          <!-- Pop-up Produto1 -->
-          <div class="modal fade">
-              <div class="header">
-                  Produto 1
-              </div>
-              <img src="images/fios/fios1.jpg" alt="">
-              <div class="body">
-                  <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris volutpat, nunc ac lacinia malesuada, tortor est hendrerit quam, quis faucibus augue enim sit amet diam. Pellentesque in nisl augue
-                  </p>
-                  <button onclick="mostrarProduto1()">Fechar</button>
-              </div>
-          </div>
-            <!-- final pop-up produto1 -->
-          <div>
-            <img src="images/penteada/penteada.jpg" alt="foto penteada">
+          <div class="image1">
+            <img src="images/penteada/penteada.jpg" alt="foto penteada" class="active">
+            <img src="images/penteada/penteada1.jpg" alt="foto penteada">
+            <img src="images/penteada/penteada2.jpg" alt="foto penteada">
+
+            <div class="descPenteadas">
+              <h2>Lãs Penteadas</h2>
+              <p>100% Lã. Das ovelhas das raças Corriedale e Merino. Além da adequação ao artesanato, é o único adequado para trabalhos em tricô gigante. Tingidas artesanalmente. Apresentação em matura com circunferência de aproximadamente 20 cm. Não temos quantidade mínima de comercialização, leve apenas o necessário para o seu trabalho, para maiores informações ou orçamento ligue para (11) 5543-5704 ou <a href="mailto:contato@henriqueta.com.br">contato@henriqueta.com.br</a> ou ainda, <a href="https://www.facebook.com/henriqueta.achutti">https://www.facebook.com/henriqueta.achutti</a>
+              </p>
+            </div>
+
             <p class="nome">Lãs Penteadas</p>
-            <button type="button" onclick="mostrarProduto1()" class="botaoProduto">Mais detalhes</button>
           </div>
 
-          <!-- Pop-up Produto2 -->
-          <div class="modal fade">
-              <div class="header">
-                  Produto 1
-              </div>
-              <div class="body">
-                  <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris volutpat, nunc ac lacinia malesuada, tortor est hendrerit quam, quis faucibus augue enim sit amet diam. Pellentesque in nisl augue
-                  </p>
-                  <button onclick="mostrarProduto1()">Fechar</button>
-              </div>
-          </div>
-            <!-- final pop-up produto2 -->
-
-            <div>
-            <img src="images/outros/outros.jpg" alt="foto mobile">
+          <div class="image2">
+            <img src="images/outros/outros.jpg" alt="foto mobile" class="active">
+            <img src="images/outros/outros1.jpg" alt="foto mobile">
+            <img src="images/outros/outros2.jpg" alt="foto mobile">
+            <div class="descOutros">
+              <h2>Outros Produtos</h2>
+              <p>Agulhas, esponjas para feltragem.  Agrupadores  de agulhas entre outros. Não temos quantidade mínima de comercialização, leve apenas o necessário para o seu trabalho, para maiores informações ou orçamento ligue para (11) 5543-5704 ou <a href="mailto:contato@henriqueta.com.br">contato@henriqueta.com.br</a> ou ainda, <a href="https://www.facebook.com/henriqueta.achutti">https://www.facebook.com/henriqueta.achutti</a>
+              </p>
+            </div>
             <p class="nome">Outros Produtos</p>
-            <button type="button" onclick="mostrarProduto1()" class="botaoProduto">Mais detalhes</button>
           </div>
-
-          <!-- Pop-up Produto3 -->
-          <div class="modal fade">
-              <div class="header">
-                  Produto 1
-              </div>
-              <div class="body">
-                  <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris volutpat, nunc ac lacinia malesuada, tortor est hendrerit quam, quis faucibus augue enim sit amet diam. Pellentesque in nisl augue
-                  </p>
-                  <button onclick="mostrarProduto1()">Fechar</button>
-              </div>
-          </div>
-            <!-- final pop-up produto3 -->
         </div>
     </section>
 
@@ -110,20 +94,38 @@ Com o avanço da escola ela mudou-se para a cidade mais próxima Santa Maria e e
         </div>
     </div>
 
-    <div style="position:relative;" id="processo">
-      <div style="color:#ddd;background-color:#282E34;text-align:center;padding:10px 10px;text-align: justify;height:300px;">
-        <p>Video Processo</p>
-        <iframe src="https://www.youtube.com/embed/pWV_3y7vcWw?ecver=2" allowfullscreen></iframe>
-      </div>
-    </div>
+      <section class="processo" id="processo">
+        <div class="linhaProcesso">
+
+          <div class="video">
+            <iframe src="https://www.youtube.com/embed/o7YvOWP4dMU" allowfullscreen></iframe>
+            <p>Feltragem agulha</p>
+          </div>
+
+          <div class="video">
+            <iframe src="https://www.youtube.com/embed/_JuHm__pEN4" allowfullscreen></iframe>
+            <p>Feltragem molhada</p>
+          </div>
+
+          <div class="video">
+            <iframe src="https://www.youtube.com/embed/pWV_3y7vcWw?ecver=2" allowfullscreen></iframe>
+            <p>Needlefelt</p>
+          </div>
+
+        </div>
+      </section>
+
     <div class="background1">
       <div class="caption">
         <span class="border">Contato</span>
       </div>
     </div>
 
-    <div id="contato">
-        <p>Formuário de contato</p>
+    <section id="contato">
+
+        <p>Dúvidas, sugestões ou reclamações?</p>
+        <p><strong>Entre em contato!</strong></p>
+
       <form class="formulario">
         <label for="">Nome</label>
         <input type="text" placeholder="Digite seu nome...">
@@ -133,15 +135,22 @@ Com o avanço da escola ela mudou-se para a cidade mais próxima Santa Maria e e
         <textarea placeholder="Digite sua mensagem..." rows="8" cols="80"></textarea>
         <input type="submit" value="Enviar">
       </form>
-    </div>
+
+    </section>
+
     <footer class="footer">
+
     <ul>
       <li><a href="#historia">Historia</a></li>
       <li><a href="#produtos">Produtos</a></li>
       <li><a href="#processo">Processo</a></li>
       <li><a href="#contato">Contato</a></li>
     </ul>
+
     </footer>
+
     <script src="script.js"></script>
+
   </body>
+
 </html>

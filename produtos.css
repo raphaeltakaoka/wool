@@ -4,7 +4,7 @@
   color: black;
   background-color: #FFEBCD;
   text-align: center;
-  padding: 150px 10px;
+  padding: 30px 10px;
 }
 
 .linha {
@@ -15,65 +15,80 @@
   padding: 10px;
 }
 
-/*.linha div:hover {
-  opacity: 0.5;
-}*/
-
-.linha img {
-  width: 90%;
+.linha img{
+  margin-left: 10%;
+  width: 80%;
   border-radius: 15%;
+  display: none;
+  box-shadow: 10px 10px 5px #888888;
+}
+.image:hover .descFios{
+  display: block;
+}
+
+.image1:hover .descPenteadas{
+    display: block;
+}
+.image2:hover .descOutros{
+    display: block;
+}
+.image .active {
+  display: block;
+}
+
+.image1 .active {
+  display: block;
+}
+
+.image2 .active {
+  display: block;
 }
 
 .linha div .nome {
     margin: 0;
-    font-size: 20px;
+    margin-top: 10px;
+    font-size: 40px;
+    font-family: 'Indie Flower', cursive;
 }
 
-.linha div .preco {
-    margin: 0;
-    font-size: 16px;
-    color: #257aed;
+.image .descFios{
+  display: none;
+  border: 2px solid black;
+  background-color: white;
+  position: absolute;
+  top: 100px;
+  left: 30%;
+  width: 50%;
+  color: black;
+  word-wrap: break-word;
 }
 
-/*Pop-up produtos*/
-.modal {
-    width: 50%;
-    border: 1px solid #aaa;
-    border-radius: 20px;
-    position: absolute;
-    background-color: #FFDAB9;
-    left: 0;
-    margin-left: 25%;
-    padding: 35px 50px;
-    opacity: 0;
+.descPenteadas{
+  display: none;
+  border: 2px solid black;
+  background-color: white;
+  position: absolute;
+  top: 100px;
+  left: 30%;
+  width: 50%;
+  color: black;
+  word-wrap: break-word;
 }
 
-.modal .header {
-    text-align: center;
-    font-size: 28px;
-    font-weight: bold;
+.descOutros{
+  display: none;
+  border: 2px solid black;
+  background-color: white;
+  position: absolute;
+  top: 100px;
+  left: 30%;
+  width: 50%;
+  color: black;
+  word-wrap: break-word;
 }
 
-.modal img {
-  width: 30%;
-}
-.modal button {
-    float: right;
-    background-color: orange;
+@media (max-width: 768px) {
+  .linha {
+  display: block;
   }
-
-.modal.active {
-  opacity: 1;
-}
-
-.fade {
-  transition-timing-function: ease;
-  transition: 0.5s;
-}
-
-.botaoProduto {
-  background-color: #fff082;
-  width: 100px;
-  height: 30px;
-  border-radius: 10%;
 }

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <meta charset="utf-8">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="produtos.css">
+    <link rel="stylesheet" href="contato.css">
+    <link rel="icon" href="images/favicon/favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon"/>
+    <title>Henriqueta Achutti</title>
+  </head>
+
+  <body>
+
+    <div class="background1">
+      <!-- Menu de navegação -->
+    <section class="menu">
+      <ul>
+        <li><a href="#historia">Historia</a></li>
+        <li><a href="#produtos">Produtos</a></li>
+        <li><a href="#processo">Processo</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </section>
+      <!-- Final menu de navegação -->
+      <div class="caption">
+        <span class="border">Henriqueta Achutti Fios e Lãs</span>
+      </div>
+    </div>
+        <div class="historia" id="historia">
+          <h3 style="text-align:center;">História</h3>
+          <p>A historia da Henriqueta Fios e Lãs começa á 70 anos atrás quando a Fundadora Henriqueta Rocha Achutti então com 15 anos e residindo na fazenda da família de produção de gado, ovelhas e plantação de arroz iniciava o contato com a Lã de ovelhas.
+Naquela época ainda não conhecia todas as aplicações da mesma, mas já iniciava na fiação manual com fuzo e roca. Para feitura de blusas, ponchos e boinas para uso da família e colaboradores.
+Com o avanço da escola ela mudou-se para a cidade mais próxima Santa Maria e estudava em colégio interno continuando longe da lã. A pós o final da escola casou com Jose Carlos Achutti e foi morar em Porto Alegre e a vida transcorria tranquila quando por de 1973 e já com quatro filhos, por uma busca de avanço profissional, o seu marido mudou-se para São Paulo oque parecia afasta-la ainda mais das atividades com lã.
+</p>
+        </div>
+    <div class="background2">
+      <div class="caption">
+        <span class="border">Produtos</span>
+      </div>
+    </div>
+
+    <section class="produtos" id="produtos">
+          <div class="linha">
+          <div>
+            <img src="images/fios/fios.jpg" alt="foto fios">
+            <p class="nome">Fios</p>
+            <button type="button" onclick="mostrarProduto1()" class="botaoProduto">Mais detalhes</button>
+          </div>
+
+          <!-- Pop-up Produto1 -->
+          <div class="modal fade">
+              <div class="header">
+                  Produto 1
+              </div>
+              <img src="images/fios/fios1.jpg" alt="">
+              <div class="body">
+                  <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris volutpat, nunc ac lacinia malesuada, tortor est hendrerit quam, quis faucibus augue enim sit amet diam. Pellentesque in nisl augue
+                  </p>
+                  <button onclick="mostrarProduto1()">Fechar</button>
+              </div>
+          </div>
+            <!-- final pop-up produto1 -->
+          <div>
+            <img src="images/penteada/penteada.jpg" alt="foto penteada">
+            <p class="nome">Lãs Penteadas</p>
+            <button type="button" onclick="mostrarProduto1()" class="botaoProduto">Mais detalhes</button>
+          </div>
+
+          <!-- Pop-up Produto2 -->
+          <div class="modal fade">
+              <div class="header">
+                  Produto 1
+              </div>
+              <div class="body">
+                  <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris volutpat, nunc ac lacinia malesuada, tortor est hendrerit quam, quis faucibus augue enim sit amet diam. Pellentesque in nisl augue
+                  </p>
+                  <button onclick="mostrarProduto1()">Fechar</button>
+              </div>
+          </div>
+            <!-- final pop-up produto2 -->
+
+            <div>
+            <img src="images/outros/outros.jpg" alt="foto mobile">
+            <p class="nome">Outros Produtos</p>
+            <button type="button" onclick="mostrarProduto1()" class="botaoProduto">Mais detalhes</button>
+          </div>
+
+          <!-- Pop-up Produto3 -->
+          <div class="modal fade">
+              <div class="header">
+                  Produto 1
+              </div>
+              <div class="body">
+                  <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris volutpat, nunc ac lacinia malesuada, tortor est hendrerit quam, quis faucibus augue enim sit amet diam. Pellentesque in nisl augue
+                  </p>
+                  <button onclick="mostrarProduto1()">Fechar</button>
+              </div>
+          </div>
+            <!-- final pop-up produto3 -->
+        </div>
+    </section>
+
+    <div class="background3">
+        <div class="caption">
+          <span class="border">Processo</span>
+        </div>
+    </div>
+
+    <div style="position:relative;" id="processo">
+      <div style="color:#ddd;background-color:#282E34;text-align:center;padding:10px 10px;text-align: justify;height:300px;">
+        <p>Video Processo</p>
+        <iframe src="https://www.youtube.com/embed/pWV_3y7vcWw?ecver=2" allowfullscreen></iframe>
+      </div>
+    </div>
+    <div class="background1">
+      <div class="caption">
+        <span class="border">Contato</span>
+      </div>
+    </div>
+
+    <div id="contato">
+        <p>Formuário de contato</p>
+      <form class="formulario">
+        <label for="">Nome</label>
+        <input type="text" placeholder="Digite seu nome...">
+        <label for="">E-mail</label>
+        <input type="text" placeholder="Digite seu e-mail...">
+        <label for="">Mensagem</label>
+        <textarea placeholder="Digite sua mensagem..." rows="8" cols="80"></textarea>
+        <input type="submit" value="Enviar">
+      </form>
+    </div>
+    <footer class="footer">
+    <ul>
+      <li><a href="#historia">Historia</a></li>
+      <li><a href="#produtos">Produtos</a></li>
+      <li><a href="#processo">Processo</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
